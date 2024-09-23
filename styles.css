@@ -1,0 +1,103 @@
+html, body {
+    height: 100%; /* Ensure the body takes the full height */
+    margin: 0;
+}
+
+body {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange children in a column */
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.jpg'); /* Replace with your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevents repeating the background */
+    color: red; /* Text color */
+}
+
+header {
+    background-color: orange; /* Semi-transparent header */
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    flex: 1; /* Make main section take available space */
+}
+
+.content {
+    height: 100vh; /* Make each section full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    padding: 100px;
+    margin: 0; /* Remove margin for full height */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Background images for sections */
+#home {
+    background-image: url('gr2.png'); /* Replace with your Home background image */
+    background-size: cover; /* Cover entire section */
+    background-position: center;
+    color: orange;
+}
+
+#about {
+    background-image: url('inbs.jpg'); /* Replace with your About background image */
+    background-size: cover; /* Cover entire section */
+    background-position: center;
+    color: orange;
+}
+
+#services {
+    background-image: url('bsrd.jpg'); /* Replace with your Services background image */
+    background-size: cover; /* Cover entire section */
+    background-position: center;
+    color: orange;
+}
+
+#contact {
+    background-image: url('grp buses.jpg'); /* Replace with your Contact background image */
+    background-size: cover; /* Cover entire section */
+    background-position: center;
+    color: orange;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+    color: black;
+}
+.hidden {
+    display: none; /* Hide elements with this class */
+}
+
+  /* Font size adjustments */
+h2 {
+    font-size: 2em; /* Adjust the size of the section headings */
+    margin-bottom: 12px; /* Space below headings */
+}
+
+p {
+    font-size: 2em; /* Adjust the size of the paragraph text */
+    line-height: 1; /* Increase line height for better readability */
+}
